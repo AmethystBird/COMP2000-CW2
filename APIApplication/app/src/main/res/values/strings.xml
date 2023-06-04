@@ -1,0 +1,35 @@
+<resources>
+    <!--General-->
+    <string name="app_name">API Application</string>
+    <string name="placeholder">Placeholder Text</string>
+
+
+    <!--Sign In-->
+    <string name="subtitle_sign_in">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_error_incorrect">Username or password incorrect</string>
+    <string name="sign_in_error_blank">Missing required fields</string>
+    <string name="register_query">Don\'t have an account?</string>
+    <string name="register_query_button">Click here to register</string>
+
+
+    <!--Home-->
+    <string name="preface_home">Select what you would like to do:</string>
+    <string name="view_projects_button">View Projects</string>
+    <string name="add_project_button">Add Project</string>
+    <string name="update_project_button">Update Project</string>
+    <string name="delete_project_button">Delete Project</string>
+    <string name="upload_image_button">Upload Image</string>
+
+    <string name="view_projects">View all currently existing projects.</string>
+    <string name="add_project">Add new projects with your described attributes.</string>
+    <string name="update_project">Update an existing project.</string>
+    <string name="delete_project">Delete an existing project.</string>
+    <string name="upload_image">Upload an image to an existing project if one is not present.</string>
+
+
+    <!--View-->
+    <string name="raw_output_test">Raw output displayed here.</string>
+</resources>

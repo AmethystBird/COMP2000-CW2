@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "API Application"
+include ':app'
+include ':cronet'
+include ':core'
+include ':testing'
+project(':cronet').projectDir = new File(rootDir, 'volley/cronet/')
+project(':core').projectDir = new File(rootDir, 'volley/core/')
+project(':testing').projectDir = new File(rootDir, 'volley/testing/')
+include ':cronet'
+include ':core'
+include ':testing'
+include ':app', ':volley'

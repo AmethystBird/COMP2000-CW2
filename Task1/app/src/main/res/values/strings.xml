@@ -1,0 +1,46 @@
+<resources>
+    <!-- GLOBAL -->
+    <string name="app_name">PlayerManagementSystem</string>
+    <string name="app_name_formatted">Player Management System</string>
+
+    <!-- SUBHEADERS -->
+    <string name="sign_in_subheader">Email:</string>
+    <string name="register_subheader">Email:</string>
+    <string name="account_name_subheader">"Account Name's"</string>
+    <string name="rankings_subheader">"Rankings"</string>
+    <string name="submit_new_score_subheader">Submit New Score?</string>
+
+    <!-- OPTIONS -->
+    <string name="logout_button">Logout</string>
+
+    <!-- DETAILS -->
+    <!-- Sign In -->
+    <string name="email_or_username_indicator">Email or Username:</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="register_option">"Don't have an account?"</string>
+    <string name="register_button">Register</string>
+
+    <!-- Register -->
+    <string name="email_indicator">Email:</string>
+    <string name="full_name_indicator">Full Name:</string>
+    <string name="username_indicator">Username:</string>
+    <string name="password_indicator">Password:</string>
+    <string name="password_verification_indicator">Re-Enter Password:</string>
+    <string name="login_option">Already have an account?</string>
+
+    <!-- Scores -->
+    <string name="global_text_button">Global</string>
+    <string name="personal_text_button">Personal</string>
+    <string name="game_indicator">Game:</string>
+    <string name="level_indicator">Level:</string>
+    <string name="new_score_button">New Score</string>
+    <string name="player_indicator">Player</string>
+    <string name="score_indicator">Score</string>
+    <string name="ranking_indicator">Ranking</string>
+
+    <!-- Input Scores -->
+    <string name="submit_new_score_indicator">Submit New Score?</string>
+    <string name="new_score_hint">New Score</string>
+    <string name="highest_score_indicator">Highest Score</string>
+    <string name="previous_score_indicator">Previous Score</string>
+</resources>
